@@ -127,3 +127,41 @@ h1, h2, h3, h4, h5 {
     padding: 1rem;
     background: #ffffff;
 }
+
+.checkbox{
+  border: 2px solid black;
+  padding: 3%;
+  margin: 2%;
+  border-radius: 7px;
+}
+
+.checkbox input{
+  float: right;
+  outline: 2px solid purple;
+  outline-offset: -1.5px;
+}
+
+.scale{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.scale-number{
+  text-align: center;
+}
+
+.scale-increment{
+  padding: 2%;
+}
+
+.circle{
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+.selected{
+  background: pink;
+}

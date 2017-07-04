@@ -23,17 +23,23 @@
             <h2>Cat Lady Behaviors</h2>
             <div class="new-behavior">
                 <form id="new-behavior-form">
-                    <label>Select a Behavior</label>
-                    <select id="behavior-select" class="behaviors" value="">
-                        <option value="-1" selected></option>
-                        <!-- filled with javascript -->
-                    </select>
-                    <div class="form-footer">
-                        <button id="add-behavior">Add</button>
+                    <label>Check the behaviors to determine your cat lady
+                      status.</label>
+                    <div id='checklist'>
+
                     </div>
+                    <!-- filled with javascript -->
+                    <!-- <select id="behavior-select" class="behaviors" value="">
+                        <option value="-1" selected></option>
+
+                    </select> -->
+                    <!--removed to convert from dropdown to list  -->
+                    <!-- <div class="form-footer">
+                        <button id="add-behavior">Add</button>
+                    </div> -->
                 </form>
             </div>
-            <hr />
+            <!-- <hr /> -->
             <div class="behavior-list">
                 <!-- note: This is what a behavior item should look like...
                 <div class="behavior-item">
@@ -53,10 +59,24 @@
                     Indifferent
                 </div>
             </div>
+            <div class="scale">
+              <!-- example
+                <div data-status='foo'>
+                <div class='circle' data-index='0'>
+                </div>
+                <div class='scale-number'>
+                  0
+                </div>
+              </div> -->
+
+            </div>
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
     <script src='js/main.js'></script>
 </body>
 
